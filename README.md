@@ -5,6 +5,15 @@ This script adapted for the **DietPi** operating system, installs the scripts an
 
 Run from terminal: `curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`
 
+## Change fan settings:
+
+Run from terminal: `argoneone-config`
+
+
+
+
+
+
 ### Changes made to the original script:
 #### In order to adapt the script to the DietPi operating system I replaced the following lines:
 
