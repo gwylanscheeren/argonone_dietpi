@@ -16,4 +16,8 @@ to:
 `sudo /DietPi/dietpi/func/dietpi-set_hardware i2c enable`  
 `sudo /DietPi/dietpi/func/dietpi-set_hardware serialconsole enable`
 
-#### Furthermore I removed the warning and confirmation step before the menu appears from `argonone-config`.
+#### Furthermore I removed the warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
+50=1  
+55=20  
+60=80  
+65=100
