@@ -67,8 +67,9 @@ if [ ! -f $daemonconfigfile ]; then
 	echo '# sudo systemctl restart '$daemonname'.service' >> $daemonconfigfile
 	echo '#' >> $daemonconfigfile
 	echo '# Start below:' >> $daemonconfigfile
-	echo '55=10' >> $daemonconfigfile
-	echo '60=55' >> $daemonconfigfile
+	echo '50=1' >> $daemonconfigfile
+	echo '55=20' >> $daemonconfigfile
+	echo '60=80' >> $daemonconfigfile
 	echo '65=100' >> $daemonconfigfile
 fi
 
