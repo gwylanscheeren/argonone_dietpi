@@ -18,8 +18,8 @@ argon_check_pkg() {
     fi
 }
 
-sudo /DietPi/dietpi/func/dietpi-set_hardware i2c enable
-sudo /DietPi/dietpi/func/dietpi-set_hardware serialconsole enable
+sudo /boot/dietpi/func/dietpi-set_hardware i2c enable
+sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable
 
 pkglist=(raspi-gpio python-rpi.gpio python3-rpi.gpio python-smbus python3-smbus i2c-tools)
 for curpkg in ${pkglist[@]}; do
