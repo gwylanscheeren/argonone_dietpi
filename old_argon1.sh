@@ -1,4 +1,5 @@
 #!/bin/bash
+# "This script is a copy from the Argon40 website, taken to ensure availability and preserve functionality in case the original website goes down or becomes inaccessible. All credit for the original creation and content of this script goes to the developers and maintainers of Argon40. This copy is provided as-is, with no guarantees or warranties, and is intended for educational and backup purposes only."
 
 
 argon_create_file() {
