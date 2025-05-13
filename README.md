@@ -33,6 +33,16 @@ Last version known to be working
 Latest version directly from Argon40 website
 - `curl https://download.argon40.com/argon1.sh | bash`  
 
+### Add service to DietPi managed services
+go to dietpi services configuration by entering in terminal:
+
+`dietp--services`
+
+'Add' `argononed`
+go to new service 'argononed' entry and 'Include' into list of services managed by DietPi.
+
+That's it. Enjoy your Argon One case fan and buttons.
+
 &nbsp;  
 
 ## Change fan settings:
