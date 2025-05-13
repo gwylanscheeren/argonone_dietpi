@@ -40,7 +40,8 @@ In order to adapt the script to the DietPi operating system I removed the follow
 `sudo raspi-config nonint do_serial 0`
 
 Furthermore I removed the annoying warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
-50=1  
-55=20  
-60=80  
-65=100
+
+`50=1`  
+`55=20`  
+`60=80`  
+`65=100`
