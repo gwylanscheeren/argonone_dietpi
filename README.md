@@ -1,9 +1,26 @@
 # Argon ONE fan script for DietPi
-This script adapted for the **DietPi** operating system, installs the scripts and services required to control the fan and power button behaviour for the [Argon ONE mini Case](https://www.argon40.com/argon-one-raspberry-pi-4-case.html).
+These installation steps are specific to the **DietPi** operating system on Raspberry Pi and will enable you to use the fan and button behaviour as intended on the [Argon ONE mini Case](https://www.argon40.com/argon-one-raspberry-pi-4-case.html).
 
-## Installation instruction:
+## Installation instructions:
 
-Run from terminal: `curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`
+required software packages:
+
+- Pytyhon 3
+- Python 3GPIO
+- i2c
+
+use 'dietpi-software' to install missing software packages
+
+required hardware settings:
+
+i2c
+serial console
+
+use 'dietpi-config' to enable required hardware
+
+Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
+
+Run from terminal: `curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/original_script.sh | bash`
 
 ## Change fan settings:
 
@@ -15,17 +32,12 @@ Run from terminal: `argoneone-config`
 &nbsp;  
 
 ### Changes made to the original script:
-#### In order to adapt the script to the DietPi operating system I replaced the following lines:
+#### In order to adapt the script to the DietPi operating system I removed the following lines:
 
 `sudo raspi-config nonint do_i2c 0`  
 `sudo raspi-config nonint do_serial 0`
 
-to:
-
-`sudo /DietPi/dietpi/func/dietpi-set_hardware i2c enable || sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`  
-`sudo /DietPi/dietpi/func/dietpi-set_hardware serialconsole enable || sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`
-
-#### Furthermore I removed the warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
+#### Furthermore I removed the annoying warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
 50=1  
 55=20  
 60=80  
