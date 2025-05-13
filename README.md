@@ -25,6 +25,8 @@ Run from terminal:
 alternatively: 
 `curl https://download.argon40.com/argon1.sh | bash`
 
+&nbsp;  
+
 ## Change fan settings:
 
 Run from terminal: `argoneone-config`
