@@ -19,22 +19,23 @@ use 'dietpi-config' then 'Advanced Options' to enable required hardware
 - I2C state | toggle On
 
 alternatively you can run the following lines in the terminal
-`sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`
-`sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`
+`sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`  
+`sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`  
 
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
-Run from terminal: 
-`curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`
+Run from terminal:
+`curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`  
 
 alternatively: 
-`curl https://download.argon40.com/argon1.sh | bash`
+`curl https://download.argon40.com/argon1.sh | bash`  
 
 &nbsp;  
 
 ## Change fan settings:
 
-Run from terminal: `argoneone-config`
+Run from terminal: 
+`argoneone-config`  
 
 &nbsp;  
 
