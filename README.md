@@ -14,8 +14,13 @@ use 'dietpi-software' to install missing software packages
 ### Required hardware settings:
 
 use 'dietpi-config' then 'Advanced Options' to enable required hardware
+
 Serial/UART -> ttyS0 | toggle On
 I2C state | toggle On
+
+alternatively you can run the following lines in the terminal
+`sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`
+`sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`
 
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
