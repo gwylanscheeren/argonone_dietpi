@@ -1,9 +1,8 @@
 # Argon ONE fan script for DietPi
 These installation steps are specific to the **DietPi** operating system on Raspberry Pi and will enable you to use the fan and button behaviour as intended on the [Argon ONE mini Case]
 (https://argon40.com/products/argon-one-v2-case-for-raspberry-pi-4)
-## Installation instructions:
 
-### Required software packages:
+## Required software packages:
 
 - Pytyhon 3 [130]
 - Python 3 RPI.GPIO [69]
@@ -11,7 +10,7 @@ These installation steps are specific to the **DietPi** operating system on Rasp
 
 use 'dietpi-software' to install missing software packages
 
-### Required hardware settings:
+## Required hardware settings:
 
 use 'dietpi-config' then 'Advanced Options' to enable required hardware
 
@@ -24,7 +23,7 @@ alternatively you can run the following lines in the terminal:
 
 &nbsp;  
 
-### Install Argon ONE deamon and config
+## Install Argon ONE deamon and config
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
 Run from terminal:
