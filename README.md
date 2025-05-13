@@ -5,18 +5,17 @@ These installation steps are specific to the **DietPi** operating system on Rasp
 
 required software packages:
 
-- Pytyhon 3
-- Python 3GPIO
-- i2c
+- Pytyhon 3 [130]
+- Python 3 RPI.GPIO [69]
+- I2C [72] 
 
 use 'dietpi-software' to install missing software packages
 
 required hardware settings:
 
-i2c
-serial console
-
-use 'dietpi-config' to enable required hardware
+use 'dietpi-config' then 'Advanced Options' to enable required hardware
+Serial/UART -> ttyS0 | toggle On
+I2C state | toggle On
 
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
