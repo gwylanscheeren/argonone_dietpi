@@ -27,9 +27,6 @@ Run from terminal: `curl https://raw.githubusercontent.com/gwylanscheeren/argono
 Run from terminal: `argoneone-config`
 
 &nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
 
 ### Changes made to the original script:
 #### In order to adapt the script to the DietPi operating system I removed the following lines:
