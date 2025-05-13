@@ -15,8 +15,8 @@ use 'dietpi-software' to install missing software packages
 
 use 'dietpi-config' then 'Advanced Options' to enable required hardware
 
-Serial/UART -> ttyS0 | toggle On
-I2C state | toggle On
+- Serial/UART -> ttyS0 | toggle On
+- I2C state | toggle On
 
 alternatively you can run the following lines in the terminal
 `sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`
