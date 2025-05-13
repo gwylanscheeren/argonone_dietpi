@@ -22,7 +22,7 @@ alternatively you can run the following lines in the terminal:
 - `sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`
 - `sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`
 
-### Install argon one deamon and config
+### Install Argon ONE deamon and config
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
 Run from terminal:
