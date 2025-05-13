@@ -24,12 +24,13 @@ alternatively you can run the following lines in the terminal:
 &nbsp;  
 
 ## Install Argon ONE deamon and config
-Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
+Now the system is ready to run the install script. 1st option is to use the last version known to be working. 2nd option is to run the latest version directly from the Argon40 website. 
 
-Run from terminal:
+### Run from terminal
+Option 1 Last version known to be working
 - `curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`  
 
-alternatively: 
+Option 2 Latest version directly from Argon40 website
 - `curl https://download.argon40.com/argon1.sh | bash`  
 
 &nbsp;  
