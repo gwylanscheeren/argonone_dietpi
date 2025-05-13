@@ -20,7 +20,7 @@ I2C state | toggle On
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
 Run from terminal: 
-`curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/original_script.sh | bash`
+`curl https://raw.githubusercontent.com/gwylanscheeren/argonone_dietpi/master/argon1.sh | bash`
 
 alternatively: 
 `curl https://download.argon40.com/argon1.sh | bash`
