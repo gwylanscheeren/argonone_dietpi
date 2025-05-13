@@ -3,7 +3,7 @@ These installation steps are specific to the **DietPi** operating system on Rasp
 (https://argon40.com/products/argon-one-v2-case-for-raspberry-pi-4)
 ## Installation instructions:
 
-required software packages:
+### Required software packages:
 
 - Pytyhon 3 [130]
 - Python 3 RPI.GPIO [69]
@@ -11,7 +11,7 @@ required software packages:
 
 use 'dietpi-software' to install missing software packages
 
-required hardware settings:
+### Required hardware settings:
 
 use 'dietpi-config' then 'Advanced Options' to enable required hardware
 Serial/UART -> ttyS0 | toggle On
@@ -31,13 +31,13 @@ Run from terminal: `argoneone-config`
 
 &nbsp;  
 
-### Changes made to the original script:
-#### In order to adapt the script to the DietPi operating system I removed the following lines:
+## Changes made to the original script:
+In order to adapt the script to the DietPi operating system I removed the following lines:
 
 `sudo raspi-config nonint do_i2c 0`  
 `sudo raspi-config nonint do_serial 0`
 
-#### Furthermore I removed the annoying warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
+Furthermore I removed the annoying warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
 50=1  
 55=20  
 60=80  
