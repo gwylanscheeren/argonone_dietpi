@@ -18,12 +18,6 @@ argon_check_pkg() {
     fi
 }
 
-/boot/dietpi/dietpi-software install 72 #I2C
-/boot/dietpi/dietpi-software install 69 #Python 3 RPi.GPIO
-
-sudo /boot/dietpi/func/dietpi-set_hardware i2c enable
-sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable
-
 pkglist=(raspi-gpio python3-smbus)
 for curpkg in ${pkglist[@]}; do
 	sudo apt-get install -y $curpkg
