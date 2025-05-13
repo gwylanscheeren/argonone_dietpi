@@ -22,6 +22,8 @@ alternatively you can run the following lines in the terminal:
 - `sudo /boot/dietpi/func/dietpi-set_hardware i2c enable`
 - `sudo /boot/dietpi/func/dietpi-set_hardware serialconsole enable`
 
+&nbsp;  
+
 ### Install Argon ONE deamon and config
 Now the system is ready to run my customised (or the original) install script (changes denoted below) from argon to enable fan and button behaviour. 
 
@@ -36,19 +38,4 @@ alternatively:
 ## Change fan settings:
 
 Run from terminal: 
-- `argone-config`  
-
-&nbsp;  
-
-## Changes made to the original script:
-In order to adapt the script to the DietPi operating system I removed the following lines:
-
-`sudo raspi-config nonint do_i2c 0`  
-`sudo raspi-config nonint do_serial 0`
-
-Furthermore I removed the annoying warning and confirmation step before the menu appears from `argonone-config`. And changed initial temperature=fan speed pairs to:
-
-`50=1`  
-`55=20`  
-`60=80`  
-`65=100`
+- `argone-config`
